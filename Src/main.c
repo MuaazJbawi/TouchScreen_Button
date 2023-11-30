@@ -15,38 +15,38 @@
  * an image and a button on the LCD screen.
  */
 
-/* Include necessary header files */
-#include "main.h" // Main header file for the application
-#include "image_320x240_argb8888.h" // Header file for the image to be displayed
-#include <string.h> // Standard C library for string operations
-#include <stdio.h> // Standard C library for standard input/output operations
+
+#include "main.h"
+#include "image_320x240_argb8888.h"
+#include <string.h>
+#include <stdio.h>
 
 /* External variables */
-extern LTDC_HandleTypeDef hltdc_eval; // Handle for the LTDC (LCD-TFT Display Controller)
-static DMA2D_HandleTypeDef hdma2d; // Handle for the DMA2D (Direct Memory Access 2D)
-extern DSI_HandleTypeDef hdsi_eval; // Handle for the DSI (Digital Serial Interface)
+extern LTDC_HandleTypeDef hltdc_eval;
+static DMA2D_HandleTypeDef hdma2d;
+extern DSI_HandleTypeDef hdsi_eval;
 
 /* Display settings macros */
-#define VSYNC 1 // Vertical sync
-#define VBP 1 // Vertical back porch
-#define VFP 1 // Vertical front porch
-#define VACT 480 // Vertical active area
-#define HSYNC 1 // Horizontal sync
-#define HBP 1 // Horizontal back porch
-#define HFP 1 // Horizontal front porch
-#define HACT 800 // Horizontal active area
+#define VSYNC 1
+#define VBP 1
+#define VFP 1
+#define VACT 480
+#define HSYNC 1
+#define HBP 1
+#define HFP 1
+#define HACT 800
 
-#define LAYER0_ADDRESS (LCD_FB_START_ADDRESS) // Base address of layer 0
+#define LAYER0_ADDRESS (LCD_FB_START_ADDRESS)
 
-static int32_t pending_buffer = -1; // Buffer pending for update
+static int32_t pending_buffer = -1;
 
 /* Function prototypes */
-static void SystemClock_Config(void); // Configures the system clock
-static void OnError_Handler(uint32_t condition); // Error handler
+static void SystemClock_Config(void);
+static void OnError_Handler(uint32_t condition);
 static void CopyBuffer(uint32_t *pSrc, uint32_t *pDst, uint16_t x, uint16_t y, uint16_t xsize, uint16_t ysize); // Copies a buffer
-static uint8_t LCD_Init(void); // Initializes the LCD
-void LTDC_Init(void); // Initializes the LTDC
-static void LCD_BriefDisplay(void); // Briefly displays content on the LCD
+static uint8_t LCD_Init(void);
+void LTDC_Init(void);
+static void LCD_BriefDisplay(void);
 
 /**
  * @brief Error handler function.
@@ -56,8 +56,8 @@ static void OnError_Handler(uint32_t condition)
 {
   if(condition)
   {
-    BSP_LED_On(LED3); // Turn on LED3 to indicate error
-    while(1) { ; } // Infinite loop to halt the program
+    BSP_LED_On(LED3);
+    while(1) { ; }
   }
 }
 
@@ -66,18 +66,18 @@ static void OnError_Handler(uint32_t condition)
  */
 static void DrawButton(void)
 {
-    uint16_t x_pos = 600; // X position of the button
-    uint16_t y_pos = 240; // Y position of the button
-    uint16_t width = 100; // Width of the button
-    uint16_t height = 50; // Height of the button
+    uint16_t x_pos = 600;
+    uint16_t y_pos = 240;
+    uint16_t width = 100;
+    uint16_t height = 50;
 
-    BSP_LCD_SetTextColor(LCD_COLOR_BLACK); // Set text color to black
-    BSP_LCD_FillRect(x_pos, y_pos, width, height); // Fill rectangle for the button
+    BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
+    BSP_LCD_FillRect(x_pos, y_pos, width, height);
 
-    BSP_LCD_SetTextColor(LCD_COLOR_WHITE); // Set text color to white
-    BSP_LCD_SetBackColor(LCD_COLOR_BLACK); // Set background color to black
-    BSP_LCD_SetFont(&Font20); // Set font size to 20
-    BSP_LCD_DisplayStringAt(1000 + (width/2), y_pos + (height/2), (uint8_t *)"SWITCH", CENTER_MODE); // Display "SWITCH" on the button
+    BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+    BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
+    BSP_LCD_SetFont(&Font20);
+    BSP_LCD_DisplayStringAt(1000 + (width/2), y_pos + (height/2), (uint8_t *)"SWITCH", CENTER_MODE);
 }
 
 /**
@@ -86,32 +86,32 @@ static void DrawButton(void)
  */
 int main(void)
 {
-  uint8_t lcd_status = LCD_OK; // Variable to hold LCD status
+  uint8_t lcd_status = LCD_OK;
 
-  HAL_Init(); // Initialize the Hardware Abstraction Layer
-  SystemClock_Config(); // Configure the system clock
-  BSP_SDRAM_Init(); // Initialize the SDRAM
-  lcd_status = LCD_Init(); // Initialize the LCD and get status
-  OnError_Handler(lcd_status != LCD_OK); // Check for LCD initialization error
+  HAL_Init();
+  SystemClock_Config();
+  BSP_SDRAM_Init();
+  lcd_status = LCD_Init();
+  OnError_Handler(lcd_status != LCD_OK);
 
-  BSP_LCD_LayerDefaultInit(0, LAYER0_ADDRESS); // Initialize default layer
-  BSP_LCD_SelectLayer(0); // Select layer 0
-  LCD_BriefDisplay(); // Display brief information on the LCD
+  BSP_LCD_LayerDefaultInit(0, LAYER0_ADDRESS);
+  BSP_LCD_SelectLayer(0);
+  LCD_BriefDisplay();
 
   // Copy the image to the screen
   CopyBuffer((uint32_t *)image_320x240_argb8888, (uint32_t *)LAYER0_ADDRESS, 50, 160, 320, 240);
-  pending_buffer = 0; // Set buffer as pending
-  HAL_DSI_Refresh(&hdsi_eval); // Refresh the DSI
-  LCD_BriefDisplay(); // Display brief information again
+  pending_buffer = 0;
+  HAL_DSI_Refresh(&hdsi_eval);
+  LCD_BriefDisplay();
   CopyBuffer((uint32_t *)image_320x240_argb8888, (uint32_t *)LAYER0_ADDRESS, 50, 160, 320, 240); // Copy the buffer again
-  DrawButton(); // Draw the button
+  DrawButton();
 
   while (1)
   {
-    if(pending_buffer < 0) // Check if buffer is pending
+    if(pending_buffer < 0)
     {
-      pending_buffer = 0; // Reset the pending buffer
-      HAL_DSI_Refresh(&hdsi_eval); // Refresh the DSI
+      pending_buffer = 0;
+      HAL_DSI_Refresh(&hdsi_eval);
     }
   }
 }
@@ -124,7 +124,7 @@ void HAL_DSI_EndOfRefreshCallback(DSI_HandleTypeDef *hdsi)
 {
   if(pending_buffer >= 0)
   {
-    pending_buffer = -1; // Reset the pending buffer
+    pending_buffer = -1;
   }
 }
 /**

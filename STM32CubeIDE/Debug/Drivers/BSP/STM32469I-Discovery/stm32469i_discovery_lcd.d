@@ -1,9 +1,9 @@
 Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.o: \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.h \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/otm8009a/otm8009a.h \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/nt35510/nt35510.h \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.h \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.h \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/otm8009a/otm8009a.h \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/nt35510/nt35510.h \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Inc/stm32f4xx_hal_conf.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -40,18 +40,18 @@ Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.o: \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dsi.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_qspi.h \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.h \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/fonts.h \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font24.c \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/fonts.h \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font20.c \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font16.c \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font12.c \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font8.c
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.h:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/otm8009a/otm8009a.h:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/nt35510/nt35510.h:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.h:
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.h \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/fonts.h \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font24.c \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/fonts.h \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font20.c \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font16.c \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font12.c \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font8.c
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.h:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/otm8009a/otm8009a.h:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/nt35510/nt35510.h:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_sdram.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../../Inc/stm32f4xx_hal_conf.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
@@ -88,11 +88,11 @@ C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dsi.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_qspi.h:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.h:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/fonts.h:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font24.c:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/fonts.h:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font20.c:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font16.c:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font12.c:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font8.c:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.h:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/fonts.h:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font24.c:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/fonts.h:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font20.c:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font16.c:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font12.c:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../../../Utilities/Fonts/font8.c:

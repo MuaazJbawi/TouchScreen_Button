@@ -1,5 +1,5 @@
 Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal_pwr.o: \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Inc/stm32f4xx_hal_conf.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \

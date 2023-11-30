@@ -1,53 +1,53 @@
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:164:9:BSP_LCD_Init	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:178:9:BSP_LCD_InitEx	2
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:401:6:BSP_LCD_Reset	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:441:10:BSP_LCD_GetXSize	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:450:10:BSP_LCD_GetYSize	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:459:6:BSP_LCD_SetXSize	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:468:6:BSP_LCD_SetYSize	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:479:6:BSP_LCD_LayerDefaultInit	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:512:6:BSP_LCD_SelectLayer	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:525:6:BSP_LCD_SetLayerVisible	2
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:545:6:BSP_LCD_SetTransparency	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:557:6:BSP_LCD_SetLayerAddress	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:572:6:BSP_LCD_SetLayerWindow	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:587:6:BSP_LCD_SetColorKeying	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:598:6:BSP_LCD_ResetColorKeying	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:608:6:BSP_LCD_SetTextColor	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:617:10:BSP_LCD_GetTextColor	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:626:6:BSP_LCD_SetBackColor	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:635:10:BSP_LCD_GetBackColor	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:644:6:BSP_LCD_SetFont	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:653:8:BSP_LCD_GetFont	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:664:10:BSP_LCD_ReadPixel	6
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:698:6:BSP_LCD_Clear	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:708:6:BSP_LCD_ClearStringLine	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:727:6:BSP_LCD_DisplayChar	2
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:744:6:BSP_LCD_DisplayStringAt	9
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:806:6:BSP_LCD_DisplayStringAtLine	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:817:6:BSP_LCD_DrawHLine	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:834:6:BSP_LCD_DrawVLine	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:852:6:BSP_LCD_DrawLine	6
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:926:6:BSP_LCD_DrawRect	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:943:6:BSP_LCD_DrawCircle	3
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:989:6:BSP_LCD_DrawPolygon	3
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1016:6:BSP_LCD_DrawEllipse	6
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1048:6:BSP_LCD_DrawBitmap	4
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1105:6:BSP_LCD_FillRect	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1125:6:BSP_LCD_FillCircle	5
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1172:6:BSP_LCD_FillPolygon	8
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1239:6:BSP_LCD_FillEllipse	6
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1269:6:BSP_LCD_DisplayOn	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1284:6:BSP_LCD_DisplayOff	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1302:6:DSI_IO_WriteCmd	2
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1321:13:BSP_LCD_DMA2D_IRQHandler	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1330:13:BSP_LCD_DSI_IRQHandler	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1340:13:BSP_LCD_LTDC_IRQHandler	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1349:13:BSP_LCD_MspDeInit	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1375:13:BSP_LCD_MspInit	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1416:13:BSP_LCD_LTDC_ER_IRQHandler	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1428:6:BSP_LCD_DrawPixel	1
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1441:13:DrawChar	9
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1499:13:FillTriangle	6
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1576:13:LL_FillBuffer	4
-C:/Users/jbawi/Kata Tasks/2nd Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1606:13:LL_ConvertLineToARGB8888	4
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:164:9:BSP_LCD_Init	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:178:9:BSP_LCD_InitEx	2
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:401:6:BSP_LCD_Reset	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:441:10:BSP_LCD_GetXSize	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:450:10:BSP_LCD_GetYSize	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:459:6:BSP_LCD_SetXSize	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:468:6:BSP_LCD_SetYSize	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:479:6:BSP_LCD_LayerDefaultInit	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:512:6:BSP_LCD_SelectLayer	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:525:6:BSP_LCD_SetLayerVisible	2
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:545:6:BSP_LCD_SetTransparency	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:557:6:BSP_LCD_SetLayerAddress	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:572:6:BSP_LCD_SetLayerWindow	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:587:6:BSP_LCD_SetColorKeying	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:598:6:BSP_LCD_ResetColorKeying	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:608:6:BSP_LCD_SetTextColor	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:617:10:BSP_LCD_GetTextColor	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:626:6:BSP_LCD_SetBackColor	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:635:10:BSP_LCD_GetBackColor	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:644:6:BSP_LCD_SetFont	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:653:8:BSP_LCD_GetFont	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:664:10:BSP_LCD_ReadPixel	6
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:698:6:BSP_LCD_Clear	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:708:6:BSP_LCD_ClearStringLine	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:727:6:BSP_LCD_DisplayChar	2
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:744:6:BSP_LCD_DisplayStringAt	9
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:806:6:BSP_LCD_DisplayStringAtLine	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:817:6:BSP_LCD_DrawHLine	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:834:6:BSP_LCD_DrawVLine	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:852:6:BSP_LCD_DrawLine	6
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:926:6:BSP_LCD_DrawRect	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:943:6:BSP_LCD_DrawCircle	3
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:989:6:BSP_LCD_DrawPolygon	3
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1016:6:BSP_LCD_DrawEllipse	6
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1048:6:BSP_LCD_DrawBitmap	4
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1105:6:BSP_LCD_FillRect	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1125:6:BSP_LCD_FillCircle	5
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1172:6:BSP_LCD_FillPolygon	8
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1239:6:BSP_LCD_FillEllipse	6
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1269:6:BSP_LCD_DisplayOn	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1284:6:BSP_LCD_DisplayOff	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1302:6:DSI_IO_WriteCmd	2
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1321:13:BSP_LCD_DMA2D_IRQHandler	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1330:13:BSP_LCD_DSI_IRQHandler	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1340:13:BSP_LCD_LTDC_IRQHandler	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1349:13:BSP_LCD_MspDeInit	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1375:13:BSP_LCD_MspInit	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1416:13:BSP_LCD_LTDC_ER_IRQHandler	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1428:6:BSP_LCD_DrawPixel	1
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1441:13:DrawChar	9
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1499:13:FillTriangle	6
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1576:13:LL_FillBuffer	4
+C:/Users/jbawi/Desktop/Final Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_lcd.c:1606:13:LL_ConvertLineToARGB8888	4

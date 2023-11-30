@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32f4xx.o: \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Src/system_stm32f4xx.c \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Src/system_stm32f4xx.c \
  ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f469xx.h \
  ../../Drivers/CMSIS/Include/core_cm4.h \

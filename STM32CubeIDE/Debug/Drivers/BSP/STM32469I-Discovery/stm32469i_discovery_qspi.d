@@ -1,6 +1,6 @@
 Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.o: \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.h \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.c \
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  ../../Inc/stm32f4xx_hal_conf.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -37,8 +37,8 @@ Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.o: \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dsi.h \
  ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_qspi.h \
- C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/n25q128a/n25q128a.h
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.h:
+ C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/n25q128a/n25q128a.h
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/stm32469i_discovery_qspi.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../../Inc/stm32f4xx_hal_conf.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:
@@ -75,4 +75,4 @@ C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dsi.h:
 ../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_qspi.h:
-C:/Users/jbawi/Kata\ Tasks/2nd\ Course/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/n25q128a/n25q128a.h:
+C:/Users/jbawi/Desktop/Final\ Project/STM32CubeIDE/LCD_DSI_CmdMode_SingleBuffer/Drivers/BSP/STM32469I-Discovery/../Components/n25q128a/n25q128a.h:
